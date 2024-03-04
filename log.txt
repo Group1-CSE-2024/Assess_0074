@@ -1,0 +1,500 @@
+   97  vi hi.c
+   98  git add hi.c
+   99  git commit -m "First commit statement for branch B2 on 14 feb"
+  100  git log
+  101  vi hi.c
+  102  git add hi.c
+  103  git commit -m "Second commit statement for branch B2 on 14 feb"
+  104  git log
+  105  git checkout master
+  106  git log
+  107  cd ..
+  108  git init
+  109  ls -ah
+  110  git config --list
+  111  git remote
+  112  git remote add origin https://github.com/DivyangnaMoudgil/Part2.git
+  113  git remote
+  114  git push -u origin master
+  115  git push -u origin main
+  116  git branch -M master
+  117  git push -u origin master
+  118  git push -u origin main
+  119  git remote
+  120  git push -u origin master
+  121  cd ..
+  122  cd Part2
+  123  cd Task1.1
+  124  vi sum.c
+  125  git add sum.c
+  126  git commit -m "A new commit added on 14 feb"
+  127  git log --oneline
+  128  cd ..
+  129  cd Task1.2
+  130  git branch B1
+  131  git checkout B1
+  132  vi hi.c
+  133  git add hi.c
+  134  git commit -m "A new statement added for branch B1 on 14 feb"
+  135  git log
+  136  git checkout B2
+  137  vi hi.c
+  138  git add hi.c
+  139  git commit -m "A new statement for branch B2 on 14 feb"
+  140  git log 
+  141  git checkout master
+  142  git log --oneline
+  143  cd ..
+  144  git remote
+  145  git push -u origin master
+  146  git push -u origin master
+  147  git remote
+  148  git push -u origin master
+  149  git remote
+  150  git remote add origin https://github.com/DivyangnaMoudgil/Part2.git
+  151  git push -u origin master
+  152  git push -u origin master
+  153  git status
+  154  git add .
+  155  +clear
+  156  clear
+  157  cd ..
+  158  cd Part2
+  159  git add .
+  160  pwd
+  161  cd ..
+  162  cd ..
+  163  ls
+  164  mkdir Assessment
+  165  ls -ah
+  166  cd Assessment
+  167  mkdir File1
+  168  mkdir File2
+  169  cd File2
+  170  git init
+  171  mkdir Task1.1
+  172  mkdir Task1.2
+  173  ls -ah
+  174  cd Task1.1
+  175  vi add.c
+  176  git add add.c
+  177  git commit -m "Initialized the variables on 14 feb"
+  178  git log
+  179  vi add.c
+  180  git add add.c
+  181  git commit -m "Assigned value to the variables on 14 feb"
+  182  git log
+  183  vi add.c
+  184  git add add.c
+  185  git commit -m "Added the logical statement to the body of the main on 14 feb"
+  186  git log
+  187  vi add.c
+  188  git add add.c
+  189  git commit -m "Added the printf statement on 14 feb"
+  190  git log
+  191  git log --oneline
+  192  cd ..
+  193  cd Task1.2
+  194  vi hey.c
+  195  git add hey.c
+  196  git commit -m "This commit is for master branch on 14 feb"
+  197  git log
+  198  git branch
+  199  git branch B1.1
+  200  git branch B1.2
+  201  git branch
+  202  git checkout B1.1
+  203  vi hey.c
+  204  git add hey.c
+  205  git commit -m "This is the first commit for branch B1.1 on 14 feb"
+  206  git log
+  207  vi hey.c
+  208  git add hey.c
+  209  git commit -m "This is the second commit for branch B1.1 on 14 feb"
+  210  git log
+  211  git checkout B1.2
+  212  vi hey.c
+  213  git add hey.c
+  214  git commit -m "This is the first commit for branch B1.2 on 14 feb"
+  215  git log
+  216  vi hey.c
+  217  git add hey.c
+  218  git commit -m "This is the second commit for branch B1.2 on 14 feb"
+  219  git log 
+  220  git log --oneline
+  221  git checkout B1.1
+  222  git log --oneline
+  223  git checkout master
+  224  cd ..
+  225  cd ..
+  226  cd File2
+  227  git remote
+  228  git remote add origin https://github.com/DivyangnaMoudgil/File2.git
+  229  git remote
+  230  git push -u origin master
+  231  ls -l
+  232  ls -ah
+  233  pwd
+  234  cd ..
+  235  cd ..
+  236  cd Users
+  237  cd divya
+  238  ls -p
+  239  cd ..
+  240  cd ..
+  241  cd Project2
+  242  ls
+  243  cd ..
+  244  ls
+  245  cd Project3
+  246  ls
+  247  cd ..
+  248  cd /
+  249  pwd
+  250  ls
+  251  cd usr
+  252  ls
+  253  cd ..
+  254  cd c
+  255  mkdir Project2/Sub4
+  256  cd Project2
+  257  ls
+  258  cd ..
+  259   mkdir Project2/16feb_G1
+  260  cd Project2
+  261  ls
+  262  cd ..
+  263  cd Project2
+  264  cd 16feb_G1
+  265  mkdir c:/Project4
+  266  cd ..
+  267  cd ..
+  268  ls
+  269  cd Project2
+  270  cd Sub2
+  271  ls
+  272  cat hello.c
+  273  touch first.html
+  274  ls
+  275  history -> first.html
+  276  history -> hello.c
+  277  history
+  278  ls
+  279  pwd
+  280  cd ..
+  281  cd ..
+  282  mkdir 21stFeb
+  283  cd 21stFeb
+  284  git status
+  285  git init
+  286  vi hello.txt
+  287  cat hello.txt
+  288  vi hi.c
+  289  cat hi.c
+  290  git status
+  291  git add .
+  292  git status
+  293  git commit -m "Commit on master at 11:10"
+  294  vi hello.txt
+  295  git status
+  296  git add hello.txt
+  297  git status
+  298  git commit -m "One line added to hello file"
+  299  git log --oneline
+  300  vi hi.c
+  301  git status
+  302  git add hi.c
+  303  git commit -m "Added a new statement to c file"
+  304  git log --oneline
+  305  git branch test
+  306  git checkout test
+  307  cat hi.c
+  308  vi hi.c
+  309  git add hi.c
+  310  git commit -m "Added one more statement in c file"
+  311  git log --oneline
+  312  cat hi.c
+  313  git checkout master
+  314  cat hi.c
+  315  git branch dev
+  316  git checkout dev
+  317  cat hi.c
+  318  cat hello.txt
+  319  git log --oneline
+  320  vi hi.c
+  321  git status
+  322  git add hi.c
+  323  git commit -m "I added one more statement in c file"
+  324  cat hi.c
+  325  git checkout master
+  326  vi .gitignore
+  327  git commit -a -m "gitignore initiated"
+  328  git add .
+  329  git commit -m "gitignore initiated"
+  330  vi hello.py
+  331  git status
+  332  vi hello.py
+  333  vi .gitignore
+  334  git commit -a -m "gitignore initiated again"
+  335  git add .
+  336  git commit -m "gitignore initiated again"
+  337  vi hello.py
+  338  git status
+  339  pwd
+  340  cd ..
+  341  cd ..
+  342  mkdir 23Feb
+  343  cd 23Feb
+  344  git init
+  345  vi hello.txt
+  346  git add .
+  347  git commit -m "First commit | main branch"
+  348  vi hello.txt
+  349  git add .
+  350  git commit -m "second commit | main branch"
+  351  git log --oneline
+  352  git branch dev1
+  353  git branch
+  354  git checkout dev1
+  355  cat hello.txt
+  356  vi hello.txt
+  357  git add .
+  358  git commit -m "first commit | dev1"
+  359  git log --oneline
+  360  vi hello.txt
+  361  git add .
+  362  git commit -m "second commit | dev1, code is ready for looping dev2"
+  363  cat hello.txt
+  364  git checkout main
+  365  git checkout master
+  366  cat hello.txt
+  367  git checkout dev1
+  368  git branch dev2
+  369  git checkout dev2
+  370  git log --oneline
+  371  vi hello.txt
+  372  git add .
+  373  git add ."
+  374  git commit -m "first commit | dev2 | line 5 added"
+  375  git add ."
+  376  git commit -m "first commit | dev2 | line 5 added"
+  377  git log --oneline
+  378  cat hello.txt
+  379  git checkout dev1
+  380  git merge dev2 dev1
+  381  git status
+  382  git log --oneline
+  383  git checkout master
+  384  git log --oneline
+  385  vi hello.txt
+  386  git add .
+  387  git commit -m "third commit | line 3 added"
+  388  git log --oneline
+  389  git checkout dev2
+  390  git merge master dev2
+  391  git mergetool
+  392  git status
+  393  git add .
+  394  git commit -m "conflict resolved | merging now for test server"
+  395  git log --oneline
+  396  pwd
+  397  cd ..
+  398  cd ..
+  399  mkdir MergeGit
+  400  cd MergeGit
+  401  git init
+  402  vi switch.c
+  403  git add .
+  404  git commit -m "Header file added | master branch"
+  405  vi switch.c
+  406  git add .
+  407  git commit -m "Main statements added,only case statements left | master branch"
+  408  git log --oneline
+  409  cat switch.c
+  410  git branch B1
+  411  git branch
+  412  git checkout B1
+  413  cat switch.c
+  414  vi switch.c
+  415  git add .
+  416  git commit -m "First commit for case1 | B1"
+  417  git log --oneline
+  418  vi switch.c
+  419  git add .
+  420  git commit -m "Second commit for case2 | B1"
+  421  git log --oneline
+  422  git checkout master
+  423  git log --oneline
+  424  git checkout B1
+  425  cat switch.c
+  426  git branch B2
+  427  git checkout B2
+  428  cat switch.c
+  429  vi switch.c
+  430  git add .
+  431  git commit -m "First commit, case 3 | B2"
+  432  vi switch.c
+  433  git add .
+  434  git commit -m "Second commit, completed the rest of the code | B2"
+  435  git log --oneline
+  436  cat switch.c
+  437  git checkout B1
+  438  git merge B1 B2
+  439  git status
+  440  pwd
+  441  cd ..
+  442  cd ..
+  443  ls
+  444  cd MergeGit
+  445  git checkout master
+  446  ls
+  447  cd ..
+  448  cd 23Feb
+  449  git checkout master
+  450  ls
+  451  git remote
+  452  git remote add origin https://github.com/DivyangnaMoudgil/23Feb.git
+  453  git remote
+  454  git push -u origin master
+  455  git branch
+  456  git checkout dev1
+  457  ls
+  458  git remote add origin https
+  459  git log --oneline
+  460  git checkout dev2
+  461  git lod --oneline
+  462  git log --oneline
+  463  git checkout dev1
+  464  git remote add origin https://github.com/DivyangnaMoudgil/23Feb.git
+  465  git remote add dev1 https://github.com/DivyangnaMoudgil/23Feb.git
+  466  git push -u dev1 dev1
+  467  pwd
+  468  cd ..
+  469  cd ..
+  470  mkdir Clone
+  471  cd Clone
+  472  pwd
+  473  git status
+  474  git clone https://github.com/MonitKapoor/23feb
+  475  git branch
+  476  cd 23feb
+  477  git branch dev1
+  478  git checkout dev1
+  479  git pull
+  480  cd ,,
+  481  cd ..
+  482  cd ..
+  483  mkdir clone_new
+  484  cd clone_new
+  485  git clone https://github.com/DivyangnaMoudgil/16hfeb_class
+  486  cd 16hfeb_class
+  487  git branch
+  488  git status
+  489  git log --oneline
+  490  pwd
+  491  cd ..
+  492  cd ..
+  493  mkdir Assess_0074
+  494  cd Assess_0074
+  495  mkdir img
+  496  ls
+  497  git init
+  498  mkdir hi.c
+  499  mkdir hello.txt
+  500  pwd
+  501  cd ..
+  502  cd ..
+  503  ls
+  504  mkdir Assess_0074
+  505  cd Assess_0074
+  506  mkdir img
+  507  ls
+  508  git init
+  509  vi hi.c
+  510  vi hey.txt
+  511  vi new.html
+  512  vi pic.png
+  513  git status
+  514  git add .
+  515  git status
+  516  vi hi.c
+  517  vi hey.txt
+  518  vi new.html
+  519  git add .
+  520  git commit -m "Added a printf statement in .c file | Added a new line in .txt file | Added body to the .html file"
+  521  git log --oneline
+  522  vi hi.c
+  523  git add hi.c
+  524  git commit -m "Second commit is only for .c file"
+  525  git log --oneline
+  526  vi hey.txt
+  527  vi new.html
+  528  git add .
+  529  git commit -m "Added a line in .txt file for third commit | Added the last statement in body tag in .html file for third commit"
+  530  git log --oneline
+  531  git remote
+  532  git remote add origin https://github.com/DivyangnaMoudgil/Assess_0074.git
+  533  git remote
+  534  git push -u origin master
+  535  vi pic.img
+  536  vi pic.png
+  537  ls
+  538  cd img
+  539  vi .gitignore
+  540  vi hi.c
+  541  ls
+  542  git status
+  543  ls
+  544  git add.
+  545  git add .
+  546  git status
+  547  git commit -m "gitignore initialized"
+  548  git status
+  549  cd ..
+  550  git add .
+  551  ls
+  552  cd img
+  553  vi hi.c
+  554  git status
+  555  vi .gitignore
+  556  git status
+  557  cd ..
+  558  cd img
+  559  vi .gitignore
+  560  git add .gitignore
+  561  git commit -m ".gitignore initialized again"
+  562  vi hi.c
+  563  git status
+  564  cd ..
+  565  vi .gitignore
+  566  git add .gitignore
+  567  git commit -m "this commit is for .gitignore command in main folder"
+  568  vi pic.png
+  569  git status
+  570  git log --oneline
+  571  cp -r * img/
+  572  cp -r * img/
+  573  ls
+  574  cp -r Assess_0074/.img/
+  575  cd img
+  576  ls
+  577  vi hey.txt
+  578  vi hi.c
+  579  vi new.html
+  580  vi pic.png
+  581  git status
+  582  git add .
+  583  git commit -m "Changes made in all the files in img folder"
+  584  git log --oneline
+  585  cd ..
+  586  cp Screenshot (276).png Assess_0074/.img/
+  587  cd img
+  588  ls
+  589  vi .gitignore
+  590  cd ..
+  591  vi .gitignore
+  592  git add .gitignore
+  593  git commit -m ".gitignore changed"
+  594  git push -u origin master
+  595  git remote
+  596  history >>log.txt
